@@ -1,0 +1,9 @@
+cron:
+- description: replenish codes
+  url: /cron_replenish
+  schedule: every 10 hours from 08:00 to 19:00
+  target: crontest
+- description: check code count
+  url: /cron_count_codes
+  schedule: every 10 hours from 08:00 to 19:00
+  target: crontest
